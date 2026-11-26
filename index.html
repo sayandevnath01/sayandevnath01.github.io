@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sayan Dev Nath | CSE Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Sayan Dev Nath, Computer Science & Engineering student at BGC Trust University Bangladesh.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>SayanDevNath</span>
+      </a>
+
+      <div class="nav-actions">
+        <nav class="site-nav" id="siteNav" aria-label="Primary Navigation">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#coding">Coding</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle color theme" title="Switch Theme">
+          <span id="themeIcon" aria-hidden="true">☀</span>
+        </button>
+
+        <button class="icon-btn menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav"
+          aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span>B.Sc. in CSE • BGC Trust University Bangladesh</span>
+        </div>
+
+        <h1>Hi, I'm <span class="gradient-text">Sayan Dev Nath</span></h1>
+
+        <p class="hero-tagline">
+          &gt; <span id="typed" class="typed-word"></span><span class="cursor">|</span>
+        </p>
+
+        <p class="hero-summary">
+          4th-semester Computer Science &amp; Engineering undergraduate focused on algorithmic problem solving,
+          numerical computing, and building clean backend &amp; CLI software in C++ and Python.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">Explore Projects</a>
+          <a class="btn" href="#contact">Get in Touch</a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/sayandevnath01" target="_blank" rel="noopener">GitHub ↗</a>
+          <span>•</span>
+          <a href="https://codeforces.com/profile/_Sayan_Dev_Nath_" target="_blank" rel="noopener">Codeforces ↗</a>
+          <span>•</span>
+          <a href="https://leetcode.com/u/SayanDevNath/" target="_blank" rel="noopener">LeetCode ↗</a>
+          <span>•</span>
+          <a href="https://www.codechef.com/users/sayandevnath" target="_blank" rel="noopener">CodeChef ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="photo.jpg" alt="Portrait of Sayan Dev Nath" class="hero-photo"
+            onerror="this.onerror=null;this.src='data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 300 300%22><rect width=%22300%22 height=%22300%22 fill=%22%23141926%22/><text x=%2250%25%22 y=%2252%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%2338bdf8%22 font-family=%22monospace%22 font-size=%2248%22 font-weight=%22bold%22>SDN</text></svg>';">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section reveal">
+      <div class="section-header">
+        <span class="section-kicker">01 // Background</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a 4th-semester Computer Science &amp; Engineering student at <strong>BGC Trust University
+              Bangladesh</strong> (Batch 40). My core interest lies in bridging mathematical reasoning with efficient
+            software engineering.
+          </p>
+          <p>
+            Through my academic coursework in <strong>Numerical Analysis</strong> and <strong>Algorithm
+              Complexity</strong>, I implement root-finding algorithms, interpolation techniques, numerical
+            differentiation, and linear algebra solvers from scratch without relying on black-box libraries.
+          </p>
+          <p>
+            Outside coursework, I actively compete on platforms like Codeforces, CodeChef, and LeetCode while expanding
+            into backend REST API development with Python and FastAPI.
+          </p>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value">4th Sem</div>
+            <div class="stat-label">B.Sc. in CSE (Batch 40)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">C++ / Py</div>
+            <div class="stat-label">Primary Languages</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">4+</div>
+            <div class="stat-label">Active Coding Profiles</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">O(log n)</div>
+            <div class="stat-label">Complexity Mindset</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section reveal">
+      <div class="section-header">
+        <span class="section-kicker">02 // Capabilities</span>
+        <h2 class="section-title">Skills &amp; Technical Stack</h2>
+      </div>
+      <div class="grid-3" id="skillGrid"></div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+      <div class="section-header">
+        <span class="section-kicker">03 // Selected Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="filter-bar" id="projectFilters" role="tablist" aria-label="Filter projects">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="algorithms">Algorithms &amp; Math</button>
+        <button class="filter-btn" data-filter="backend">Backend &amp; Systems</button>
+      </div>
+
+      <div class="grid-3" id="projectGrid"></div>
+    </section>
+
+    <!-- Coding Profiles -->
+    <section id="coding" class="section reveal">
+      <div class="section-header">
+        <span class="section-kicker">04 // Competitive Programming</span>
+        <h2 class="section-title">Coding Profiles</h2>
+      </div>
+      <div class="grid-3" id="profileGrid"></div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section reveal">
+      <div class="section-header">
+        <span class="section-kicker">05 // Connect</span>
+        <h2 class="section-title">Get in Touch</h2>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-info">
+          <p>
+            Have an interesting algorithmic problem, project collaboration idea, or internship opportunity? Drop a
+            message using the form or reach out through my developer profiles.
+          </p>
+          <div class="contact-detail">
+            <div class="detail-item">
+              <span class="detail-label">University</span>
+              <span class="detail-value">BGC Trust University Bangladesh (Dept. of CSE)</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Location</span>
+              <span class="detail-value">Chattogram, Bangladesh</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">GitHub Handle</span>
+              <span class="detail-value">@sayandevnath01</span>
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Tanvir Ahmed" autocomplete="name">
+            <span class="error-msg" data-error-for="name"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+            <span class="error-msg" data-error-for="email"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here..."></textarea>
+            <span class="error-msg" data-error-for="message"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Sayan Dev Nath. Engineered with pure HTML, CSS &amp; JavaScript.</p>
+      <a href="#top" class="back-to-top" id="backToTop" aria-label="Back to top">&uarr; Top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
